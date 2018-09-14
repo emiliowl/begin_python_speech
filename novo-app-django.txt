@@ -1,0 +1,6 @@
+pip install django
+django-admin startproject lista_pessoas_app
+python manage.py runserver
+python manage.py startapp main
+python manage.py makemigrations
+python manage.py migrate

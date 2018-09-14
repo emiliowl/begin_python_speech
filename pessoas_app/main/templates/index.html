@@ -1,0 +1,9 @@
+{% if ppl_list %}
+    <ul>
+    {% for p in ppl_list %}
+        <li>{{ p.nome }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>Nenhuma pessoa.</p>
+{% endif %}
